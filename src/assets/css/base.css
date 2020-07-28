@@ -1,0 +1,27 @@
+div,p,span,h1,h2,h3,h4,h5,img,a,tr,td,body,ul,li,button,input,textarea{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+  border: none;
+}
+li{
+  list-style: none;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+button,input,textarea,select{
+  border: none;
+  outline: none;
+}
+.clearFix::after{
+  content: '.';
+  height: 0;
+  opacity: 0;
+  zoom: 1;
+  clear: both;
+}

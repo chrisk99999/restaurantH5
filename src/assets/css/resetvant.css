@@ -1,0 +1,7 @@
+
+.van-tabbar{
+    background-color: #3e2b27;
+}
+[class*=van-hairline]::after {
+ border: none;
+}
